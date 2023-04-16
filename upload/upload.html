@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Upload Section</title>
+	<link rel="stylesheet" type="text/css" href="upload.css">
+</head>
+<body>
+
+	<div class="upload-section">
+		<h1>Upload Your Reports</h1>
+		<p>We recommend uploading your relevant health reports to receive the best possible advice:</p>
+		<form >
+			<label for="file">Select file:</label>
+			<input type="file" name="file" id="file"><br><br>
+			<input type="submit" id="submit" name="submit" value="Upload">
+		</form>
+	</div>
+	<script>
+		document.getElementById("submit").addEventListener("click", SwitchPic);	
+		function SwitchPic() {
+	  alert("Uploaded Suxessfully!");
+	  Redirect()
+		}
+		function Redirect() 
+    {  
+        window.location="../index.html"; 
+    }
+    setTimeout('Redirect()', 5000);   
+	</script>
+</body>
+</html>
