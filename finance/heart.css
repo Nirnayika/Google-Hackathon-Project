@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+  padding: 1rem 3%;
+}
+
+/*Navbar*/
+.navbar{
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color:rgb(231, 20, 20);
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 30px;
+    color:white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    transition: all 0.3s;
+    color:white;
+}
+.navbar ul li a:hover{
+    color:black;
+} 
+
+
+/*Intro*/
+.intro .row{
+  display: flex;
+  align-items: center;
+  margin: 35px;
+  gap: 1rem;
+}
+.intro .row .img-container{
+    position: relative;
+}
+.intro .row .img-container img{
+    width: 100%;
+    border: .5rem solid white;
+    border-radius: .5rem;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.intro .row .content{
+    flex: 1 1 500rem;
+}
+.intro .row .content h1{
+    font-size: 2rem;
+    color: rgb(26, 27, 104);
+}
+.intro .row .content p{
+    font-size: 1rem;
+    color: #1d1c1c;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}

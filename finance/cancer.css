@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+  padding: 1rem 3%;
+}
+
+/*Navbar*/
+.navbar{
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color:rgb(250, 104, 37);
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 30px;
+    color:white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    transition: all 0.3s;
+    color:white;
+}
+.navbar ul li a:hover{
+    color:black;
+} 
+
+
+/*Intro*/
+.intro .row{
+  display: flex;
+  align-items: center;
+  margin: 35px;
+  gap: 1rem;
+}
+.intro .row .img-container{
+    position: relative;
+}
+.intro .row .img-container img{
+    width: 100%;
+    border: .5rem solid white;
+    border-radius: .5rem;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.intro .row .content{
+    flex: 1 1 500rem;
+}
+.intro .row .content h1{
+    font-size: 2rem;
+    color: rgb(110, 112, 249);
+}
+.intro .row .content p{
+    font-size: 1rem;
+    color: #1d1c1c;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}
+.intro .row1{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+  }
+.intro .row1 .img-container{
+      position: relative;
+}
+.intro .row1 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;    
+}
+.intro .row1 .content{
+      flex: 1 1 500rem;
+}
+.intro .row1 .content h1{
+      font-size: 2rem;
+      color: rgb(117, 119, 248);
+}
+.intro .row1 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row2{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+}
+.intro .row2 .img-container{
+      position: relative;
+}
+.intro .row2 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+}
+.intro .row2 .content{
+      flex: 1 1 500rem;
+}
+.intro .row2 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 249);
+}
+.intro .row2 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row3{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+}
+.intro .row3 .img-container{
+      position: relative;
+}
+.intro .row3 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+}
+.intro .row3 .content{
+      flex: 1 1 500rem;
+}
+.intro .row3 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 248);
+}
+.intro .row3 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row4{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+}
+.intro .row4 .img-container{
+      position: relative;
+}
+.intro .row4 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+}
+.intro .row4 .content{
+      flex: 1 1 500rem;
+}
+.intro .row4 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 245);
+}
+.intro .row4 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row5{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+}
+.intro .row5 .img-container{
+      position: relative;
+}
+.intro .row5 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+      
+}
+.intro .row5 .content{
+      flex: 1 1 500rem;
+}
+.intro .row5 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 248);
+}
+.intro .row5 .content p{
+    font-size: 1rem;
+    color: #1d1c1c;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}
+.intro .row6{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 1rem;
+   
+}
+.intro .row6 .img-container{
+      position: relative;
+}
+.intro .row6 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+      
+}
+.intro .row6 .content{
+      flex: 1 1 500rem;
+}
+.intro .row6 .content h1{
+      font-size: 1rem;
+      color: rgb(110, 112, 248);
+}
+.intro .row6 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row7{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+  }
+  .intro .row7 .img-container{
+      position: relative;
+  }
+  .intro .row7 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+      
+  }
+  .intro .row7 .content{
+      flex: 1 1 500rem;
+  }
+  .intro .row7 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 246);
+  }
+  .intro .row7 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+  }
+.intro .row9{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+}
+.intro .row9 .img-container{
+      position: relative;
+}
+.intro .row9 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+}
+.intro .row9 .content{
+      flex: 1 1 500rem;
+}
+.intro .row9 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 245);
+}
+.intro .row9 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+}
+.intro .row10{
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 1rem;
+  }
+  .intro .row10 .img-container{
+      position: relative;
+  }
+  .intro .row10 .img-container img{
+      width: 100%;
+      border: .5rem solid white;
+      border-radius: .5rem;
+      height: 100%;
+      object-fit: cover;
+      
+  }
+  .intro .row10 .content{
+      flex: 1 1 500rem;
+  }
+  .intro .row10 .content h1{
+      font-size: 2rem;
+      color: rgb(110, 112, 244);
+  }
+  .intro .row10 .content p{
+      font-size: 1rem;
+      color: #1d1c1c;
+      padding: .5rem 0;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+  }
+.intro .row8{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row8 .img-container{
+        position: relative;
+}
+.intro .row8 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+}
+.intro .row8 .content{
+        flex: 1 1 500rem;
+}
+.intro .row8 .content h1{
+        font-size: 2rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row8 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row11{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row11 .img-container{
+        position: relative;
+}
+.intro .row11 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row11 .content{
+        flex: 1 1 500rem;
+ }
+.intro .row11 .content h1{
+        font-size: 2rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row11 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row12{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row12 .img-container{
+        position: relative;
+}
+.intro .row12 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+}
+.intro .row12 .content{
+        flex: 1 1 500rem;
+}
+.intro .row12 .content h1{
+        font-size: 2rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row12 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+
+.intro .row13{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row13 .img-container{
+        position: relative;
+}
+.intro .row13 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row13 .content{
+        flex: 1 1 500rem;
+    }
+.intro .row13 .content h1{
+        font-size: 2rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row13 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row14{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row14 .img-container{
+        position: relative;
+}
+.intro .row14 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row14 .content{
+        flex: 1 1 500rem;
+    }
+.intro .row14 .content h1{
+        font-size: 1rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row14 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row15{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row15 .img-container{
+        position: relative;
+}
+.intro .row15 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row15 .content{
+        flex: 1 1 500rem;
+    }
+.intro .row15 .content h1{
+        font-size: 1rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row15 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row16{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row16 .img-container{
+        position: relative;
+}
+.intro .row16 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row16 .content{
+        flex: 1 1 500rem;
+    }
+.intro .row16 .content h1{
+        font-size: 1rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row16 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+.intro .row17{
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 1rem;
+}
+.intro .row17 .img-container{
+        position: relative;
+}
+.intro .row17 .img-container img{
+        width: 100%;
+        border: .5rem solid white;
+        border-radius: .5rem;
+        height: 100%;
+        object-fit: cover;
+        
+}
+.intro .row17 .content{
+        flex: 1 1 500rem;
+    }
+.intro .row17 .content h1{
+        font-size: 2rem;
+        color: rgb(110, 112, 244);
+}
+.intro .row17 .content p{
+        font-size: 1rem;
+        color: #1d1c1c;
+        padding: .5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5rem;
+}
+
+  
+
+
+.footer{
+    width: 100%;
+    background-color:rgb(253, 130, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
